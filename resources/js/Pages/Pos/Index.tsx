@@ -29,7 +29,7 @@ interface PaginatedProducts {
   total: number;
   links: PaginationLink[];
 }
-
+//
 interface PosPageProps extends PageProps {
   products: PaginatedProducts;
   categories: string[];
